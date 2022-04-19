@@ -25,3 +25,7 @@ variable "instance_image" {
 variable "vpc_name" {
   description = "Virtual Network Name"
 }
+
+variable "resource_prefix" {
+  description = "Resource Prefix"
+}
