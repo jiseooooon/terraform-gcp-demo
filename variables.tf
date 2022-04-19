@@ -26,6 +26,6 @@ variable "vpc_name" {
   description = "Virtual Network Name"
 }
 
-variable "resource_prefix" {
-  description = "Resource Prefix"
+variable "subnet_prefix" {
+  description = "Subnetwork Name Prefix"
 }
